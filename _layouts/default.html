@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page.title %}
+      <title>{{ page.title }} | Blog | James Wright</title>
+    {% else %}
+      <title>Blog | James Wright</title>
+    {% endif %}
+    <link rel='stylesheet' href='css/base.css' />
+    <link rel='shortcut icon' href='/favicon.ico' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <p><a href="{{ site.url }}">blog.jameswright.me</a></p>
+      <p>Just some words about some things.</p>
+    </header>
+    {{ content }}
+    <footer>
+      <p>
+        Made, with <span class="heart" role="img" aria-label="love">❤️</span>,
+        by <a href="https://jameswright.me">James Wright</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+:root {
+  --main-colour: #3D3D3D;
+  --highlight-colour: #0C0C0C;
+  --blue-color: rgb(0, 55, 200);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  color: var(--main-colour);
+  padding: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+  color: var(--highlight-colour)
+}
+
+header {
+  margin-bottom: 40px;
+  border-bottom: 2px solid var(--main-colour);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 2px solid var(--main-colour);
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    padding: 20px;
+  }
+}
