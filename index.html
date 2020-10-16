@@ -1,5 +1,11 @@
 ---
 layout: default
 ---
-<p>Hi.</p>
-<p>Here's some stuff.</p>
+
+{% for article in site.articles %}
+<section>
+  {% assign excerpt = article.content | split: site.excerpt_separator %}
+  {{ excerpt[0] }}
+  <a href="{{ article.url }}">Read more...</a>
+</section>
+{% endfor %}

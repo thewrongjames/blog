@@ -1,1 +1,7 @@
 url: "https://blog.jameswright.me"
+excerpt_separator: "<!--~~~-->"
+
+collections:
+  articles:
+    output: true
+    permalink: /:name
