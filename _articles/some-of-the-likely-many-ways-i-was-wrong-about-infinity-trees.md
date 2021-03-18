@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Some of the Likely Many Ways I was Wrong About Infinity Trees
+published_time: 2019.56011227942
 ---
 
 # {{ page.title }}

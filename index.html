@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% for article in site.articles %}
+{% assign sorted_articles = site.articles | sort: "published_time" %}
+{% for article in sorted_articles reversed %}
 <section>
   {% assign excerpt = article.content | split: site.excerpt_separator %}
   {{ excerpt[0] }}
