@@ -13,25 +13,36 @@
     <script src="/static/js/dark-mode-management.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <a id="logo-link" href="{{ site.url }}">
         <img id="logo" src="/static/img/question_mark.svg" alt="Question mark logo"/>
       </a>
       <div>
-        {% include details.html %}
+        <p>
+          Just some words about some things, written by
+          <a href="https://jameswright.me">James Wright</a>, a self-proclaimed "person",
+          who often goes by
+          <a href="https://twitter.com/thewrongjames">@thewrongjames</a>.
+        </p>
+
         <!--
           The dark mode is controlled by javascript, so let's not show it to
           people who aren't running javascript (and so can't use it).
         -->
         <p id="dark-mode-controls" class="dark-mode-controls hidden">
           <input type="checkbox" id="dark-mode-checkbox"></input>
-          <label for="dark-mode-checkbox">Dark mode?</label>
+          <label for="dark-mode-checkbox">Fancy a trip to the dark side?</label>
         </p>
       </div>
     </header>
     {{ content }}
     <footer>
-      {% include details.html %}
+      <p><a href="#header" aria-label="Scroll to top">Back to the top.</a></p>
+      <p>
+        Made, with <span class="heart" role="img" aria-label="love">❤️</span>,
+        by <a href="https://jameswright.me">James Wright</a>.
+      </p>
+      <p><a href="https://twitter.com/thewrongjames">@thewrongjames</a></p>
     </footer>
   </body>
 </html>
