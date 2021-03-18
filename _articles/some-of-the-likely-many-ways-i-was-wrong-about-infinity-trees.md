@@ -5,6 +5,7 @@ published_time: 2019.56011227942
 ---
 
 {% include article-top.html %}
+{% include use-mathjax.html %}
 
 I'm now almost two years, and an actual discrete mathematics course, ahead of my apparently-bored-towards-the-end-of-high-school-self, and I'm feeling ready to replace [my old mistakes](\infinity-trees) with some fresh new ones. So below are at least some of the reasons I think I was wrong last time, which I will delve into in this post.
 
@@ -47,17 +48,17 @@ As I said last time, the diagonal argument goes a little like this...
 > inverting these digits (turning $0$s to $1$s and $1$s to $0$s).  
 > <br>
 > i.e.  
-> $s_1$: $0.\color{rgb(0, 255, 51)}{\mathbf{1}}00111010...$  
-> $s_2$: $0.0\color{rgb(0, 255, 51)}{\mathbf{1}}1111110...$  
-> $s_3$: $0.10\color{rgb(0, 255, 51)}{\mathbf{0}}111000...$  
-> $s_4$: $0.110\color{rgb(0, 255, 51)}{\mathbf{1}}01000...$  
-> $s_5$: $0.0101\color{rgb(0, 255, 51)}{\mathbf{0}}0000...$  
-> $s_6$: $0.00001\color{rgb(0, 255, 51)}{\mathbf{0}}011...$  
-> $s_7$: $0.110001\color{rgb(0, 255, 51)}{\mathbf{1}}01...$  
-> $s_8$: $0.1001000\color{rgb(0, 255, 51)}{\mathbf{1}}1...$  
-> $s_9$: $0.11110011\color{rgb(0, 255, 51)}{\mathbf{1}}...$  
-> $\color{rgb(0, 255, 51)}{...}$  
-> Highlighted digits: $\color{rgb(0, 255, 51)}{110100111...}$  
+> $s_1$: $0.\mathbf{1}00111010...$  
+> $s_2$: $0.0\mathbf{1}1111110...$  
+> $s_3$: $0.10\mathbf{0}111000...$  
+> $s_4$: $0.110\mathbf{1}01000...$  
+> $s_5$: $0.0101\mathbf{0}0000...$  
+> $s_6$: $0.00001\mathbf{0}011...$  
+> $s_7$: $0.110001\mathbf{1}01...$  
+> $s_8$: $0.1001000\mathbf{1}1...$  
+> $s_9$: $0.11110011\mathbf{1}...$  
+> $...$  
+> Bold digits: $110100111...$  
 > $\therefore$ the new numbers is: $0.001011000...$  
 > <br>
 > However, this number is different from every number in the list above in at
