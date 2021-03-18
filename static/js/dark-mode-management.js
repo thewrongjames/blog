@@ -17,8 +17,10 @@ function setLightModeStyles () {
     .setProperty('--highlight-colour', 'var(--light-highlight-colour)')
 
   // This will definitely need to be more specific a selection at some point.
-  for (const imageElement of document.getElementsByTagName('img')) {
-    imageElement.classList.remove('invert-black-and-white-only')
+  for (const imageElement of document.getElementsByClassName(
+    'should-invert-fixing-red'
+  )) {
+    imageElement.classList.remove('invert-fixing-red')
   }
 }
 
@@ -31,8 +33,10 @@ function setDarkModeStyles () {
     .setProperty('--highlight-colour', 'var(--dark-highlight-colour)')
   
   // This will definitely need to be more specific a selection at some point.
-  for (const imageElement of document.getElementsByTagName('img')) {
-    imageElement.classList.add('invert-black-and-white-only')
+  for (const imageElement of document.getElementsByClassName(
+    'should-invert-fixing-red'
+  )) {
+    imageElement.classList.add('invert-fixing-red')
   }
 }
 

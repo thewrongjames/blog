@@ -7,7 +7,7 @@
   --dark-main-colour: #C2C2C2;
   --dark-highlight-colour: white;
   
-  --blue-colour: rgb(0, 55, 200);
+  --blue-colour: rgb(20, 75, 230);
 
   --background-colour: var(--light-background-colour);
   --main-colour: var(--light-main-colour);
@@ -16,6 +16,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  min-width: 400px;
 }
 
 body {
@@ -37,8 +41,22 @@ h1, h2, h3, h4, h5, h6, b {
 }
 
 header {
+  display: flex;
+  width: 100%;
   margin-bottom: 40px;
   border-bottom: 2px solid var(--main-colour);
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+#logo-link {
+  width: 200px;
+  margin-right: 50px;
+}
+
+#logo {
+  min-width: 100px;
 }
 
 footer {
@@ -64,8 +82,7 @@ a {
   font-size: 1rem;
 }
 
-.invert-black-and-white-only {
-  /* This at least works for red, not sure if it generalises. */
+.invert-fixing-red {
   filter: invert() hue-rotate(180deg) saturate(10);
 }
 

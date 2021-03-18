@@ -24,10 +24,12 @@ didn't really do enough research.
 
 I'm also not very good at marketing.
 
-![Infinity trees diagram](
-    /static/infinity-trees/infinity-trees.svg
-    "Yes, I know there are duplicates. I'll get there eventually."
-)
+<img
+    src="/static/infinity-trees/infinity-trees.svg"
+    alt="Infinity trees diagram"
+    title="Yes, I know there are duplicates. I'll get there eventually."
+    class="should-invert-fixing-red"
+/>
 
 <!--~~~-->
 
@@ -141,11 +143,12 @@ at the top, and the integer that is the lower bound of the range across the
 axis on the left (covering the negatives by alternating, e.g. $[0, 1, -1, 2,
 -2, 3, ...]$).   
 
-![Grid counting diagram](
-    /static/infinity-trees/grid-counting.svg
-    "I got this idea from the Numberphile video I linked above. It was used
-    for the positive rationals there."
-)
+<img
+    src="/static/infinity-trees/grid-counting.svg"
+    alt="Grid counting diagram"
+    title="I got this idea from the Numberphile video I linked above. It was used for the positive rationals there."
+    class="should-invert-fixing-red"
+/>
 
 Now, after that, we are left with an integer grid, extending off both right and
 down forever, with as many coordinates on each axis as there are integers. We
@@ -186,10 +189,12 @@ question is still interesting.
 
 ### The Structure
 
-![Infinity trees diagram](
-    /static/infinity-trees/infinity-trees.svg
-    "I will still get to the duplicates. Eventually."
-)
+<img
+    src="/static/infinity-trees/infinity-trees.svg"
+    alt="Infinity trees diagram"
+    title="I will still get to the duplicates. Eventually."
+    class="should-invert-fixing-red"
+/>
 
 The arrangement that I believe allows the reals to be counted is the tree graph
 depicted above. Each node is a number (written in binary), and each number is
@@ -224,10 +229,12 @@ However, there is at least one rather glaring issue.
 While I will go into the details of actually making a function out of the tree
 later, one thing at least is easy to see when looking at the tree itself.  
 
-![Infinity trees diagram](
-    /static/infinity-trees/infinity-trees.svg
-    "If you are still waiting for the duplicates thing. You missed it."
-)
+<img
+    src="/static/infinity-trees/infinity-trees.svg"
+    alt="Infinity trees diagram"
+    title="If you are still waiting for the duplicates thing. You missed it."
+    class="should-invert-fixing-red"
+/>
 
 Where are the irrationals?
 

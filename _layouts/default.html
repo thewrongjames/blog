@@ -14,23 +14,24 @@
   </head>
   <body>
     <header>
-      <p><a href="{{ site.url }}">blog.jameswright.me</a></p>
-      <p>Just some words about some things.</p>
+      <a id="logo-link" href="{{ site.url }}">
+        <img id="logo" src="/static/img/question_mark.svg" alt="Question mark logo"/>
+      </a>
+      <div>
+        {% include details.html %}
+        <!--
+          The dark mode is controlled by javascript, so let's not show it to
+          people who aren't running javascript (and so can't use it).
+        -->
+        <p id="dark-mode-controls" class="dark-mode-controls hidden">
+          <input type="checkbox" id="dark-mode-checkbox"></input>
+          <label for="dark-mode-checkbox">Dark mode?</label>
+        </p>
+      </div>
     </header>
     {{ content }}
     <footer>
-      <p>
-        Made, with <span class="heart" role="img" aria-label="love">❤️</span>,
-        by <a href="https://jameswright.me">James Wright</a>
-      </p>
-      <!--
-        The dark mode is controlled by javascript, so let's not show it to
-        people who aren't running javascript (and so can't use it).
-      -->
-      <p id="dark-mode-controls" class="hidden">
-        <input type="checkbox" id="dark-mode-checkbox"></input>
-        <label for="dark-mode-checkbox">Dark mode?</label>
-      </p>
+      {% include details.html %}
     </footer>
   </body>
 </html>

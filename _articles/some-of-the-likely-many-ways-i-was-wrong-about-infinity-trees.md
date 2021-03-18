@@ -12,10 +12,12 @@ I'm now almost two years, and an actual discrete mathematics course, ahead of my
 2. I didn't define a bijection.
 3. There are no irrationals until you get infinitely far down the tree.
 
-![Crossed out infinity trees diagram](
-    /static/some-of-the-likely-many-ways-i-was-wrong-about-infinity-trees\infinity-trees-crossed-out.svg
-    "Well, yes, I guess there isn't actually anything wrong with the diagram."
-)
+<img
+    src="/static/some-of-the-likely-many-ways-i-was-wrong-about-infinity-trees\infinity-trees-crossed-out.svg"
+    alt="Crossed out infinity trees diagram"
+    title="Well, yes, I guess there isn't actually anything wrong with the diagram."
+    class="should-invert-fixing-red"
+/>
 
 <!--~~~-->
 
