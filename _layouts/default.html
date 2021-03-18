@@ -23,7 +23,11 @@
         Made, with <span class="heart" role="img" aria-label="love">❤️</span>,
         by <a href="https://jameswright.me">James Wright</a>
       </p>
-      <p>
+      <!--
+        The dark mode is controlled by javascript, so let's not show it to
+        people who aren't running javascript (and so can't use it).
+      -->
+      <p id="dark-mode-controls" class="hidden">
         <input type="checkbox" id="dark-mode-checkbox"></input>
         <label for="dark-mode-checkbox">Dark mode?</label>
       </p>

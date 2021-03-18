@@ -64,14 +64,18 @@ a {
   font-size: 1rem;
 }
 
+.invert-black-and-white-only {
+  /* This at least works for red, not sure if it generalises. */
+  filter: invert() hue-rotate(180deg) saturate(10);
+}
+
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   body {
     width: 100%;
     padding: 20px;
   }
-}
-
-.invert-black-and-white-only {
-  /* This at least works for red, not sure if it generalises. */
-  filter: invert() hue-rotate(180deg) saturate(10);
 }
