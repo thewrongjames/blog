@@ -4,7 +4,7 @@ title: Some of the Likely Many Ways I was Wrong About Infinity Trees
 published_time: 2019.56011227942
 ---
 
-# {{ page.title }}
+{% include article-top.html %}
 
 I'm now almost two years, and an actual discrete mathematics course, ahead of my apparently-bored-towards-the-end-of-high-school-self, and I'm feeling ready to replace [my old mistakes](\infinity-trees) with some fresh new ones. So below are at least some of the reasons I think I was wrong last time, which I will delve into in this post.
 

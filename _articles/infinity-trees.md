@@ -4,7 +4,7 @@ title: Infinity Trees
 published_time: 2017.84425775063
 ---
 
-# {{ page.title }}
+{% include article-top.html %}
 
 ## How many numbers are there between zero and one?
 
