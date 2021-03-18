@@ -11,8 +11,8 @@
    data-name="Layer 1"
    viewBox="0 0 425.2 141.73"
    version="1.1"
-   sodipodi:docname="infinity_trees_crossed_out.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   sodipodi:docname="infinity-trees-crossed-out.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata2966">
     <rdf:RDF>
@@ -34,17 +34,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1364"
-     inkscape:window-height="736"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
      id="namedview2964"
      showgrid="false"
-     inkscape:zoom="2.0037629"
-     inkscape:cx="212.60001"
-     inkscape:cy="70.864998"
+     inkscape:zoom="3.390335"
+     inkscape:cx="206.61477"
+     inkscape:cy="40.676826"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_1" />
+     inkscape:current-layer="Layer_1"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="true" />
   <defs
      id="defs2741">
     <style
@@ -55,625 +57,734 @@
   <text
      class="cls-1"
      transform="translate(213.89 19.19)"
-     id="text2745">0</text>
+     id="text2745"
+     style="fill:#000000;fill-opacity:1;">0</text>
   <text
      class="cls-2"
      transform="translate(132.6 42.03)"
-     id="text2747">0.0</text>
+     id="text2747"
+     style="fill:#000000;fill-opacity:1;">0.0</text>
   <text
      class="cls-2"
      transform="translate(284.86 42.03)"
-     id="text2749">0.1</text>
+     id="text2749"
+     style="fill:#000000;fill-opacity:1;">0.1</text>
   <text
      class="cls-3"
      transform="translate(69.12 64.86)"
-     id="text2751">0.00</text>
+     id="text2751"
+     style="fill:#000000;fill-opacity:1;">0.00</text>
   <text
      class="cls-3"
      transform="translate(160.48 64.86)"
-     id="text2753">0.01</text>
+     id="text2753"
+     style="fill:#000000;fill-opacity:1;">0.01</text>
   <text
      class="cls-4"
      transform="translate(251.89 64.88) rotate(0.1)"
-     id="text2755">0.10</text>
+     id="text2755"
+     style="fill:#000000;fill-opacity:1;">0.10</text>
   <text
      class="cls-3"
      transform="translate(343.18 64.86)"
-     id="text2757">0.11</text>
+     id="text2757"
+     style="fill:#000000;fill-opacity:1;">0.11</text>
   <text
      class="cls-5"
      transform="translate(25.94 87.7)"
-     id="text2759">0.000</text>
+     id="text2759"
+     style="fill:#000000;fill-opacity:1;">0.000</text>
   <text
      class="cls-5"
      transform="translate(76.69 87.7)"
-     id="text2761">0.001</text>
+     id="text2761"
+     style="fill:#000000;fill-opacity:1;">0.001</text>
   <text
      class="cls-5"
      transform="translate(127.45 87.7)"
-     id="text2763">0.010</text>
+     id="text2763"
+     style="fill:#000000;fill-opacity:1;">0.010</text>
   <text
      class="cls-5"
      transform="translate(279.7 87.7)"
-     id="text2765">0.100</text>
+     id="text2765"
+     style="fill:#000000;fill-opacity:1;">0.100</text>
   <text
      class="cls-5"
      transform="translate(228.95 87.7)"
-     id="text2767">0.101</text>
+     id="text2767"
+     style="fill:#000000;fill-opacity:1;">0.101</text>
   <text
      class="cls-5"
      transform="translate(330.43 87.7)"
-     id="text2769">0.110</text>
+     id="text2769"
+     style="fill:#000000;fill-opacity:1;">0.110</text>
   <text
      class="cls-5"
      transform="translate(381.2 87.7)"
-     id="text2771">0.111</text>
+     id="text2771"
+     style="fill:#000000;fill-opacity:1;">0.111</text>
   <text
      class="cls-5"
      transform="translate(178.2 87.7)"
-     id="text2773">0.011</text>
+     id="text2773"
+     style="fill:#000000;fill-opacity:1;">0.011</text>
   <text
      class="cls-6"
      transform="translate(1.42 110.48)"
-     id="text2775">0.0000</text>
+     id="text2775"
+     style="fill:#000000;fill-opacity:1;">0.0000</text>
   <text
      class="cls-6"
      transform="translate(28.28 110.48)"
-     id="text2777">0.0001</text>
+     id="text2777"
+     style="fill:#000000;fill-opacity:1;">0.0001</text>
   <text
      class="cls-6"
      transform="translate(55.15 110.48)"
-     id="text2779">0.0010</text>
+     id="text2779"
+     style="fill:#000000;fill-opacity:1;">0.0010</text>
   <text
      class="cls-6"
      transform="translate(82.02 110.48)"
-     id="text2781">0.0011</text>
+     id="text2781"
+     style="fill:#000000;fill-opacity:1;">0.0011</text>
   <text
      class="cls-6"
      transform="translate(108.89 110.48)"
-     id="text2783">0.0100</text>
+     id="text2783"
+     style="fill:#000000;fill-opacity:1;">0.0100</text>
   <text
      class="cls-6"
      transform="translate(135.76 110.48)"
-     id="text2785">0.0101</text>
+     id="text2785"
+     style="fill:#000000;fill-opacity:1;">0.0101</text>
   <text
      class="cls-6"
      transform="translate(162.63 110.48)"
-     id="text2787">0.0110</text>
+     id="text2787"
+     style="fill:#000000;fill-opacity:1;">0.0110</text>
   <text
      class="cls-6"
      transform="translate(191.75 110.48)"
-     id="text2789">0.111</text>
+     id="text2789"
+     style="fill:#000000;fill-opacity:1;">0.111</text>
   <text
      class="cls-6"
      transform="translate(243.23 110.48)"
-     id="text2791">0.1011</text>
+     id="text2791"
+     style="fill:#000000;fill-opacity:1;">0.1011</text>
   <text
      class="cls-6"
      transform="translate(216.36 110.48)"
-     id="text2793">0.1010</text>
+     id="text2793"
+     style="fill:#000000;fill-opacity:1;">0.1010</text>
   <text
      class="cls-6"
      transform="translate(270.1 110.48)"
-     id="text2795">0.1000</text>
+     id="text2795"
+     style="fill:#000000;fill-opacity:1;">0.1000</text>
   <text
      class="cls-6"
      transform="translate(296.97 110.48)"
-     id="text2797">0.1001</text>
+     id="text2797"
+     style="fill:#000000;fill-opacity:1;">0.1001</text>
   <text
      class="cls-6"
      transform="translate(323.84 110.48)"
-     id="text2799">0.1100</text>
+     id="text2799"
+     style="fill:#000000;fill-opacity:1;">0.1100</text>
   <text
      class="cls-6"
      transform="translate(350.71 110.48)"
-     id="text2801">0.1101</text>
+     id="text2801"
+     style="fill:#000000;fill-opacity:1;">0.1101</text>
   <text
      class="cls-6"
      transform="translate(377.57 110.48)"
-     id="text2803">0.1110</text>
+     id="text2803"
+     style="fill:#000000;fill-opacity:1;">0.1110</text>
   <text
      class="cls-6"
      transform="translate(404.44 110.48)"
-     id="text2805">0.1111</text>
+     id="text2805"
+     style="fill:#000000;fill-opacity:1;">0.1111</text>
   <circle
      class="cls-7"
      cx="11.09"
      cy="121.46"
      r="1.61"
-     id="circle2807" />
+     id="circle2807"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="11.09"
      cy="126.83"
      r="1.61"
-     id="circle2809" />
+     id="circle2809"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="11.09"
      cy="132.2"
      r="1.61"
-     id="circle2811" />
+     id="circle2811"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="37.96"
      cy="121.46"
      r="1.61"
-     id="circle2813" />
+     id="circle2813"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="37.96"
      cy="126.83"
      r="1.61"
-     id="circle2815" />
+     id="circle2815"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="37.96"
      cy="132.2"
      r="1.61"
-     id="circle2817" />
+     id="circle2817"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="64.82"
      cy="121.46"
      r="1.61"
-     id="circle2819" />
+     id="circle2819"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="64.82"
      cy="126.83"
      r="1.61"
-     id="circle2821" />
+     id="circle2821"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="64.82"
      cy="132.2"
      r="1.61"
-     id="circle2823" />
+     id="circle2823"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="91.69"
      cy="121.46"
      r="1.61"
-     id="circle2825" />
+     id="circle2825"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="91.69"
      cy="126.83"
      r="1.61"
-     id="circle2827" />
+     id="circle2827"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="91.69"
      cy="132.2"
      r="1.61"
-     id="circle2829" />
+     id="circle2829"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="118.56"
      cy="121.46"
      r="1.61"
-     id="circle2831" />
+     id="circle2831"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="118.56"
      cy="126.83"
      r="1.61"
-     id="circle2833" />
+     id="circle2833"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="118.56"
      cy="132.2"
      r="1.61"
-     id="circle2835" />
+     id="circle2835"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="145.43"
      cy="121.46"
      r="1.61"
-     id="circle2837" />
+     id="circle2837"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="145.43"
      cy="126.83"
      r="1.61"
-     id="circle2839" />
+     id="circle2839"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="145.43"
      cy="132.2"
      r="1.61"
-     id="circle2841" />
+     id="circle2841"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="172.29"
      cy="121.46"
      r="1.61"
-     id="circle2843" />
+     id="circle2843"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="172.29"
      cy="126.83"
      r="1.61"
-     id="circle2845" />
+     id="circle2845"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="172.29"
      cy="132.2"
      r="1.61"
-     id="circle2847" />
+     id="circle2847"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="199.81"
      cy="121.46"
      r="1.61"
-     id="circle2849" />
+     id="circle2849"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="199.81"
      cy="126.83"
      r="1.61"
-     id="circle2851" />
+     id="circle2851"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="199.81"
      cy="132.2"
      r="1.61"
-     id="circle2853" />
+     id="circle2853"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="226.03"
      cy="121.46"
      r="1.61"
-     id="circle2855" />
+     id="circle2855"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="226.03"
      cy="126.83"
      r="1.61"
-     id="circle2857" />
+     id="circle2857"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="226.03"
      cy="132.2"
      r="1.61"
-     id="circle2859" />
+     id="circle2859"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="252.9"
      cy="121.46"
      r="1.61"
-     id="circle2861" />
+     id="circle2861"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="252.9"
      cy="126.83"
      r="1.61"
-     id="circle2863" />
+     id="circle2863"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="252.9"
      cy="132.2"
      r="1.61"
-     id="circle2865" />
+     id="circle2865"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="279.77"
      cy="121.46"
      r="1.61"
-     id="circle2867" />
+     id="circle2867"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="279.77"
      cy="126.83"
      r="1.61"
-     id="circle2869" />
+     id="circle2869"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="279.77"
      cy="132.2"
      r="1.61"
-     id="circle2871" />
+     id="circle2871"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="306.64"
      cy="121.46"
      r="1.61"
-     id="circle2873" />
+     id="circle2873"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="306.64"
      cy="126.83"
      r="1.61"
-     id="circle2875" />
+     id="circle2875"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="306.64"
      cy="132.2"
      r="1.61"
-     id="circle2877" />
+     id="circle2877"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="333.51"
      cy="121.46"
      r="1.61"
-     id="circle2879" />
+     id="circle2879"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="333.51"
      cy="126.83"
      r="1.61"
-     id="circle2881" />
+     id="circle2881"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="333.51"
      cy="132.2"
      r="1.61"
-     id="circle2883" />
+     id="circle2883"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="360.37"
      cy="121.46"
      r="1.61"
-     id="circle2885" />
+     id="circle2885"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="360.37"
      cy="126.83"
      r="1.61"
-     id="circle2887" />
+     id="circle2887"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="360.37"
      cy="132.2"
      r="1.61"
-     id="circle2889" />
+     id="circle2889"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="387.24"
      cy="121.46"
      r="1.61"
-     id="circle2891" />
+     id="circle2891"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="387.24"
      cy="126.83"
      r="1.61"
-     id="circle2893" />
+     id="circle2893"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="387.24"
      cy="132.2"
      r="1.61"
-     id="circle2895" />
+     id="circle2895"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="414.11"
      cy="121.46"
      r="1.61"
-     id="circle2897" />
+     id="circle2897"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="414.11"
      cy="126.83"
      r="1.61"
-     id="circle2899" />
+     id="circle2899"
+     style="fill:#000000;fill-opacity:1" />
   <circle
      class="cls-7"
      cx="414.11"
      cy="132.2"
      r="1.61"
-     id="circle2901" />
+     id="circle2901"
+     style="fill:#000000;fill-opacity:1" />
   <line
      class="cls-8"
      x1="218.08"
      y1="21.78"
      x2="143.24"
      y2="32.44"
-     id="line2903" />
+     id="line2903"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="218.08"
      y1="21.78"
      x2="295.49"
      y2="32.44"
-     id="line2905" />
+     id="line2905"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="143.24"
      y1="44.62"
      x2="80.73"
      y2="55.27"
-     id="line2907" />
+     id="line2907"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="143.24"
      y1="44.62"
      x2="172.08"
      y2="55.27"
-     id="line2909" />
+     id="line2909"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="295.49"
      y1="44.62"
      x2="263.43"
      y2="55.27"
-     id="line2911" />
+     id="line2911"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="295.49"
      y1="44.62"
      x2="350.64"
      y2="55.27"
-     id="line2913" />
+     id="line2913"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="80.73"
      y1="67.45"
      x2="37.22"
      y2="81.16"
-     id="line2915" />
+     id="line2915"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="80.73"
      y1="67.45"
      x2="89.6"
      y2="81.16"
-     id="line2917" />
+     id="line2917"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="172.08"
      y1="67.45"
      x2="138.73"
      y2="81.16"
-     id="line2919" />
+     id="line2919"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="172.08"
      y1="67.45"
      x2="189.48"
      y2="81.16"
-     id="line2921" />
+     id="line2921"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="263.43"
      y1="67.45"
      x2="240.23"
      y2="81.16"
-     id="line2923" />
+     id="line2923"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="263.43"
      y1="67.45"
      x2="290.98"
      y2="81.16"
-     id="line2925" />
+     id="line2925"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="354.78"
      y1="67.45"
      x2="341.71"
      y2="81.16"
-     id="line2927" />
+     id="line2927"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="354.78"
      y1="67.45"
      x2="392.48"
      y2="81.16"
-     id="line2929" />
+     id="line2929"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="37.22"
      y1="90.29"
      x2="11.09"
      y2="105.52"
-     id="line2931" />
+     id="line2931"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="37.22"
      y1="90.29"
      x2="37.96"
      y2="105.52"
-     id="line2933" />
+     id="line2933"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="89.6"
      y1="90.29"
      x2="64.82"
      y2="105.52"
-     id="line2935" />
+     id="line2935"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="89.6"
      y1="90.29"
      x2="91.69"
      y2="105.52"
-     id="line2937" />
+     id="line2937"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="138.73"
      y1="90.29"
      x2="118.56"
      y2="105.52"
-     id="line2939" />
+     id="line2939"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="138.73"
      y1="90.29"
      x2="145.43"
      y2="104.93"
-     id="line2941" />
+     id="line2941"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="189.48"
      y1="90.29"
      x2="172.29"
      y2="105.52"
-     id="line2943" />
+     id="line2943"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="189.48"
      y1="90.29"
      x2="199.81"
      y2="105.52"
-     id="line2945" />
+     id="line2945"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="240.23"
      y1="90.29"
      x2="226.03"
      y2="105.52"
-     id="line2947" />
+     id="line2947"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="240.23"
      y1="90.29"
      x2="252.9"
      y2="105.52"
-     id="line2949" />
+     id="line2949"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="290.98"
      y1="90.29"
      x2="279.77"
      y2="105.52"
-     id="line2951" />
+     id="line2951"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="290.98"
      y1="90.29"
      x2="306.64"
      y2="105.52"
-     id="line2953" />
+     id="line2953"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="341.71"
      y1="90.29"
      x2="333.51"
      y2="105.52"
-     id="line2955" />
+     id="line2955"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="341.71"
      y1="90.29"
      x2="360.37"
      y2="105.52"
-     id="line2957" />
+     id="line2957"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="392.48"
      y1="90.29"
      x2="387.24"
      y2="105.52"
-     id="line2959" />
+     id="line2959"
+     style="stroke:#000000;stroke-opacity:1" />
   <line
      class="cls-8"
      x1="392.48"
      y1="90.29"
      x2="414.11"
      y2="105.52"
-     id="line2961" />
+     id="line2961"
+     style="stroke:#000000;stroke-opacity:1" />
   <path
      style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0404;stroke-width:2.03672099;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path3641"

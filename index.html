@@ -3,10 +3,12 @@ layout: default
 ---
 
 {% assign sorted_articles = site.articles | sort: "published_time" %}
-{% for article in sorted_articles reversed %}
-<section>
-  {% assign excerpt = article.content | split: site.excerpt_separator %}
-  {{ excerpt[0] }}
-  <a href="{{ article.url }}">Read more...</a>
-</section>
-{% endfor %}
+<div>
+  {% for article in sorted_articles reversed %}
+  <div class="excerpt">
+    {% assign excerpt = article.content | split: site.excerpt_separator %}
+    {{ excerpt[0] }}
+    <p><a href="{{ article.url }}">Read more...</a></p>
+  </div>
+  {% endfor %}
+</div>

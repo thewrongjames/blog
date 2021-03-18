@@ -1,7 +1,17 @@
 :root {
-  --main-colour: #3D3D3D;
-  --highlight-colour: #0C0C0C;
-  --blue-color: rgb(0, 55, 200);
+  --light-background-colour: white;
+  --light-main-colour: #3D3D3D;
+  --light-highlight-colour: black;
+
+  --dark-background-colour: black;
+  --dark-main-colour: #C2C2C2;
+  --dark-highlight-colour: white;
+  
+  --blue-colour: rgb(0, 55, 200);
+
+  --background-colour: var(--light-background-colour);
+  --main-colour: var(--light-main-colour);
+  --highlight-colour: var(--light-highlight-colour);
 }
 
 * {
@@ -14,7 +24,12 @@ body {
   max-width: 900px;
   margin: auto;
   color: var(--main-colour);
+  background-color: var(--background-colour);
   padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6, b {
@@ -34,7 +49,12 @@ footer {
 
 a {
   text-decoration: none;
-  color: var(--blue-color);
+  color: var(--blue-colour);
+}
+
+.excerpt:not(.excerpt:last-child) {
+  margin-bottom: 40px;
+  border-bottom: 2px solid var(--main-colour);
 }
 
 @media screen and (max-width: 800px) {
@@ -42,4 +62,9 @@ a {
     width: 100%;
     padding: 20px;
   }
+}
+
+.invert-black-and-white-only {
+  /* This at least works for red, not sure if it generalises. */
+  filter: invert() hue-rotate(180deg) saturate(10);
 }
