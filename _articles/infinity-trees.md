@@ -5,7 +5,6 @@ published_time: 2017.84425775063
 ---
 
 {% include article-top.html %}
-{% include use-mathjax.html %}
 
 ## How many numbers are there between zero and one?
 
@@ -29,10 +28,12 @@ I'm also not very good at marketing.
     src="/static/infinity-trees/infinity-trees.svg"
     alt="Infinity trees diagram"
     title="Yes, I know there are duplicates. I'll get there eventually."
-    class="should-invert-fixing-red"
+    class="invert-fixing-red"
 />
 
 <!--~~~-->
+
+{% include use-mathjax.html %}
 
 ## Different sizes of infinity
 
@@ -148,7 +149,7 @@ axis on the left (covering the negatives by alternating, e.g. $[0, 1, -1, 2,
     src="/static/infinity-trees/grid-counting.svg"
     alt="Grid counting diagram"
     title="I got this idea from the Numberphile video I linked above. It was used for the positive rationals there."
-    class="should-invert-fixing-red"
+    class="invert-fixing-red"
 />
 
 Now, after that, we are left with an integer grid, extending off both right and
@@ -194,7 +195,7 @@ question is still interesting.
     src="/static/infinity-trees/infinity-trees.svg"
     alt="Infinity trees diagram"
     title="I will still get to the duplicates. Eventually."
-    class="should-invert-fixing-red"
+    class="invert-fixing-red"
 />
 
 The arrangement that I believe allows the reals to be counted is the tree graph
@@ -234,7 +235,7 @@ later, one thing at least is easy to see when looking at the tree itself.
     src="/static/infinity-trees/infinity-trees.svg"
     alt="Infinity trees diagram"
     title="If you are still waiting for the duplicates thing. You missed it."
-    class="should-invert-fixing-red"
+    class="invert-fixing-red"
 />
 
 Where are the irrationals?
@@ -383,9 +384,11 @@ s(n - d(n)) + e(n)2^{-p(n)} & \text{if $n\neq0$}
 \end{cases}
 $$
 </div>
-$$ d(n) = \left \lfloor {\frac{n}{2}} \right \rfloor + 1 $$
-$$ e(n) = \frac{(-1)^n + 1}{2} $$
-$$ p(n) = \left \lceil {\log_2{n + 2}} \right \rceil - 1 $$
+$ d(n) = \left \lfloor {\frac{n}{2}} \right \rfloor + 1 $
+
+$ e(n) = \frac{(-1)^n + 1}{2} $
+
+$ p(n) = \left \lceil {\log_2{n + 2}} \right \rceil - 1 $
 So...
 <div class='scroll-box'>
 $$

@@ -1,4 +1,4 @@
-:root {
+html {
   --light-background-colour: white;
   --light-main-colour: #3D3D3D;
   --light-highlight-colour: black;
@@ -12,14 +12,22 @@
   --background-colour: var(--light-background-colour);
   --main-colour: var(--light-main-colour);
   --highlight-colour: var(--light-highlight-colour);
+
+  min-width: 400px;
+}
+
+html[data-dark-mode="true"] {
+  --background-colour: var(--dark-background-colour);
+  --main-colour: var(--dark-main-colour);
+  --highlight-colour: var(--dark-highlight-colour);
+}
+
+html[data-dark-mode="true"] .invert-fixing-red {
+  filter: invert() hue-rotate(180deg) saturate(10);
 }
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  min-width: 400px;
 }
 
 body {
@@ -91,12 +99,12 @@ blockquote {
   font-size: 1rem;
 }
 
-.invert-fixing-red {
-  filter: invert() hue-rotate(180deg) saturate(10);
-}
-
 .hidden {
   display: none;
+}
+
+.scroll-box {
+  overflow-x: auto;
 }
 
 @media screen and (max-width: 800px) {
