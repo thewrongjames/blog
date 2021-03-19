@@ -279,9 +279,13 @@ zero), and then across the next row down, and then across the next row down,
 and so on, we can start to write out what this function must look like, reading
 off the tree.
 
+<div class="scroll-box" markdown="1">
+
 | $n$    | $0$ | $1$ | $2$   | $3$    | $4$    | $5$    | $6$    | $7$     | $...$ |
 |:------:| ---:| ---:| -----:| ------:| ------:| ------:| ------:| -------:|:-----:|
 | $s(n)$ | $0$ | $0$ | $0.1$ | $0.00$ | $0.01$ | $0.10$ | $0.11$ | $0.000$ | $...$ |
+
+</div>
 
 So, what is actually happening here? Well, we can break it down into a few
 different parts and name them (after all, names give power). I am going to
@@ -314,12 +318,16 @@ So, now let's look at the table and the tree again to try to find these values,
 to see how far it goes back each time, to see what the power of $2$ added is,
 and to see when it is even.
 
+<div class="scroll-box" markdown="1">
+
 | $n$    | $1$ | $2$   | $3$    | $4$    | $5$    | $6$    | $7$     | $...$ |
 |:------:| ---:| -----:| ------:| ------:| ------:| ------:| -------:|:-----:|
 | $s(n)$ | $0$ | $0.1$ | $0.00$ | $0.01$ | $0.10$ | $0.11$ | $0.000$ | $...$ |
 | $d(n)$ | $1$ |   $2$ |    $2$ |    $3$ |    $3$ |    $4$ |     $4$ | $...$ |
 | $e(n)$ | $0$ |   $1$ |    $0$ |    $1$ |    $0$ |    $1$ |     $0$ | $...$ |
 | $p(n)$ | $1$ |   $1$ |    $2$ |    $2$ |    $2$ |    $2$ |     $3$ | $...$ |
+
+</div>
 
 So now we can start building this up, thinking about what each of these things
 actually are. The easiest to define is possibly $e(n)$. $1$ if $n$ is even, $0$
@@ -364,9 +372,13 @@ happen in the same place as the changes to $p(n)$.
 
 So, if we let $f(n) = \left \lceil {\log_2{n + 2}} \right \rceil$ then:
 
+<div class="scroll-box" markdown="1">
+
 | $n$    | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ | $...$ |
 |:------:| ---:| ---:| ---:| ---:| ---:| ---:| ---:| ---:| ---:| ----:|:-----:|
 | $f(n)$ | $2$ | $2$ | $3$ | $3$ | $3$ | $3$ | $4$ | $4$ | $4$ |  $4$ | $...$ |
+
+</div>
 
 And conveniently, we can now see that that is just exactly one more than what
 we want for $p(n)$.
