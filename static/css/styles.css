@@ -1,0 +1,77 @@
+html {
+  --light-background-colour: white;
+  --light-main-colour: #3D3D3D;
+  --light-highlight-colour: black;
+
+  --dark-background-colour: black;
+  --dark-main-colour: #C2C2C2;
+  --dark-highlight-colour: white;
+  
+  --blue-colour: rgb(20, 75, 230);
+
+  --background-colour: var(--light-background-colour);
+  --main-colour: var(--light-main-colour);
+  --highlight-colour: var(--light-highlight-colour);
+
+  min-width: 400px;
+}
+
+html[data-dark-mode="true"] {
+  --background-colour: var(--dark-background-colour);
+  --main-colour: var(--dark-main-colour);
+  --highlight-colour: var(--dark-highlight-colour);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  color: var(--main-colour);
+  background-color: var(--background-colour);
+  padding: 1rem 0;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+  color: var(--highlight-colour)
+}
+
+header {
+  border-bottom: 2px solid var(--main-colour);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+header nav img {
+  width: 2rem;
+  height: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 2px solid var(--main-colour);
+}
+
+a {
+  color: var(--blue-colour);
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    padding: 20px;
+  }
+}
