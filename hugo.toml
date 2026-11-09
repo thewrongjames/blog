@@ -1,0 +1,4 @@
+baseURL = 'https://thewrongjames.com/'
+locale = 'en-au'
+title = 'thewrongjames'
+theme = 'thewrongjames'
