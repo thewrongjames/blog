@@ -22,6 +22,17 @@ html[data-dark-mode="true"] {
   --highlight-colour: var(--dark-highlight-colour);
 }
 
+/* See the license at /font/eb-garamond/OFL.txt */
+@font-face {
+  font-family: EBGaramond;
+  src: url(/font/eb-garamond/EBGaramond-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: EBGaramond;
+  src: url(/font/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -34,8 +45,9 @@ body {
   color: var(--main-colour);
   background-color: var(--background-colour);
   padding: 1rem 0;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.45;
+  font-family: EBGaramond;
 }
 
 h1, h2, h3, h4, h5, h6, b {
@@ -51,12 +63,15 @@ header nav {
   align-items: center;
   gap: 10px;
   font-size: 25px;
-  margin-bottom: 10px;
 }
 
 header nav img {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+header nav h1 {
+  margin-right: auto;
 }
 
 footer {
