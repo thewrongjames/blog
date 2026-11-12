@@ -13,7 +13,7 @@ html {
   --main-colour: var(--light-main-colour);
   --highlight-colour: var(--light-highlight-colour);
 
-  min-width: 400px;
+  min-width: 360px;
 }
 
 html[data-dark-mode="true"] {
@@ -40,7 +40,7 @@ html[data-dark-mode="true"] {
 body {
   font-family: sans-serif;
   width: 70%;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   color: var(--main-colour);
   background-color: var(--background-colour);
@@ -48,6 +48,7 @@ body {
   font-size: 25px;
   line-height: 1.45;
   font-family: EBGaramond;
+  word-break: break-word;
 }
 
 h1, h2, h3, h4, h5, h6, b {
@@ -62,7 +63,8 @@ header nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 header nav img {
@@ -72,6 +74,8 @@ header nav img {
 
 header nav h1 {
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer {
@@ -84,7 +88,7 @@ a {
   color: var(--blue-colour);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   body {
     width: 100%;
     padding: 20px;
