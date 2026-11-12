@@ -46,7 +46,7 @@ body {
   background-color: var(--background-colour);
   padding: 1rem 0;
   font-size: 25px;
-  line-height: 1.45;
+  line-height: 1.40;
   font-family: EBGaramond;
   word-break: break-word;
 }
@@ -64,7 +64,7 @@ header nav {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 header nav img {
