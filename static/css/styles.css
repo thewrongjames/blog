@@ -16,7 +16,7 @@ html {
   min-width: 360px;
 
   font-size: 25px;
-  line-height: 1.30;
+  line-height: 1.25;
 }
 
 html[data-dark-mode="true"] {
