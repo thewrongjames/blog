@@ -1,9 +1,6 @@
 {{ define "main" }}
   {{ partial "date.html" (dict "page" .)}}
-  
   <h1>{{ .Title }}</h1>
-  
   {{ partial "tags.html" (dict "taxonomy" "tags" "page" .) }}
-
   {{ .Content }}
 {{ end }}
