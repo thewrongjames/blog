@@ -55,3 +55,8 @@ https://gohugo.io/templates/types describes the different types of templates.
 
 - For base templates, for now, I probably just need to know that a
   `layouts/baseof.html` will be the base for everything.
+
+## Summaries
+
+https://www.hugodoc.com/content-management/summaries/ details how to control
+the summary of a page.

@@ -1,0 +1,13 @@
+{{- /*
+Render the date associated with the page.
+
+@context {page} page The current page.
+
+@example: {{ partial "date.html" (dict "page" .) }}
+*/}}
+
+{{- with .page }}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "2006-01-02" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+{{- end }}

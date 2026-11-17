@@ -14,6 +14,9 @@ html {
   --highlight-colour: var(--light-highlight-colour);
 
   min-width: 360px;
+
+  font-size: 25px;
+  line-height: 1.30;
 }
 
 html[data-dark-mode="true"] {
@@ -45,8 +48,6 @@ body {
   color: var(--main-colour);
   background-color: var(--background-colour);
   padding: 1rem 0;
-  font-size: 25px;
-  line-height: 1.40;
   font-family: EBGaramond;
   word-break: break-word;
 }
@@ -55,16 +56,14 @@ h1, h2, h3, h4, h5, h6, b {
   color: var(--highlight-colour)
 }
 
-header {
-  border-bottom: 2px solid var(--main-colour);
-}
-
 header nav {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--main-colour);
 }
 
 header nav img {
@@ -72,15 +71,24 @@ header nav img {
   height: 4rem;
 }
 
-header nav h1 {
+#title {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
 
+h1 {
+  margin: 0.5rem 0;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
 footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 2rem;
   border-top: 2px solid var(--main-colour);
 }
 
