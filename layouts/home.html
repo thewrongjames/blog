@@ -4,7 +4,8 @@
     <section>
       {{ partial "date.html" (dict "page" .)}}
       <h1><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h1>
-      {{ partial "tags.html" (dict "taxonomy" "tags" "page" .) }}
+      <!-- Tags are not worth including until I have more than one. -->
+      <!-- {{ partial "tags.html" (dict "taxonomy" "tags" "page" .) }} -->
       {{ .Summary }}
       <p><a href="{{ .RelPermalink }}">Read more</a>.</p>
     </section>

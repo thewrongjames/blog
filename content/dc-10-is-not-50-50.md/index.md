@@ -1,6 +1,6 @@
 +++
 title = 'With a +0 modifier, there is a 55% chance of succeeding on DC 10 check'
-date = 2023-01-15T09:00:00-07:00
+date = '2026-11-22T16:07:45+11:00'
 draft = false
 tags = ['TTRPGs']
 +++
@@ -11,8 +11,7 @@ are 11 numbers between 10 and 20 if you include the boundaries, and 11/20 =
 
 Games often like to stick to nicely-divisible-by-five DCs. D&D 5e uses
 the DCs 5, 10, 15, and 20 for very easy, easy, moderate, and hard respectively.
-These are 80%, 55%, 30% and 5% chances of success with a +0 modifier
-respectively.
+These are 80%, 55%, 30% and 5% chances of success with a +0 modifier.
 
 I don't find these particularly easy to reason about percentages, but there are
 lots of reasons this doesn't matter. Nobody was claiming they were "nice
