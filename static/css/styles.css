@@ -69,6 +69,13 @@ header nav img {
   height: 4rem;
 }
 
+#header-text {
+  display: flex;
+  align-items: baseline;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
 #title {
   margin-right: auto;
   margin-top: 0;
