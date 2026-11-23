@@ -91,6 +91,12 @@ h1 {
   gap: 0.5rem;
 }
 
+blockquote {
+  margin: 0;
+  padding: 0 1rem;
+  border-left: 2px solid var(--main-colour);
+}
+
 footer {
   text-align: center;
   margin-top: 2rem;
