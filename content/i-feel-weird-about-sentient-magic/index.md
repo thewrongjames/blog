@@ -1,6 +1,6 @@
 +++
 date = '2026-11-23T20:11:04+11:00'
-title = 'I Feel Weird About Sentient Magic'
+title = 'I feel weird about sentient magic'
 tags = ['TTRPGs']
 +++
 
