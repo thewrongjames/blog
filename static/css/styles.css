@@ -15,7 +15,7 @@ html {
 
   min-width: 360px;
 
-  font-size: 25px;
+  font-size: 21px;
   line-height: 1.25;
 }
 
@@ -41,9 +41,7 @@ html[data-dark-mode="true"] {
 }
 
 body {
-  font-family: sans-serif;
-  width: 70%;
-  max-width: 800px;
+  width: 700px;
   margin: auto;
   color: var(--main-colour);
   background-color: var(--background-colour);
@@ -96,7 +94,7 @@ a {
   color: var(--blue-colour);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 740px) {
   body {
     width: 100%;
     padding: 20px;
